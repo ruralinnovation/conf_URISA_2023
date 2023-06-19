@@ -16,7 +16,15 @@ on:
             with:
           # To install LaTeX to build PDF book 
               tinytex: true
+              
         - name: Set up R     
           uses: r-lib/actions/setup-r@v2
           with:
             r-version: '4.2.0'
+            
+        - name: Publish to GitHub Pages (and render)
+          uses: quarto-dev/quarto-actions/publish@v2
+          with:
+            target: gh-pages
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
