@@ -5,6 +5,44 @@ format: revealjs
 editor: visual
 ---
 
+## Org presentation
+
+CORI?
+
+## Drew and Olivier presentation
+
+how to contact us, etc 
+
+## Intro to problem/work
+
+- The so "what". 
+- Examples of funding associated with these datasets (annual BB funding)
+- Discord channel <- as a good ressources 
+
+## Historical context and new data context
+
+- 477
+- Fabric data (article you do not need fabric ?)
+
+## Work flow and outputs (1 slide 3 min)
+
+mermaid / link to repo 
+
+TODO: clean repo 
+
+## Results(2-3 slides 9 min) 
+
+- New data implication differences***
+- Numbers and tables of differences
+
+## Conclusion/ 
+
+-  Upcoming FCC updates. 
+- Possible recommendations
+
+
+## Questions (1 slide)
+
 ## Quarto
 
 Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
