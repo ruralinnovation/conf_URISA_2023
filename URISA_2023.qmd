@@ -8,12 +8,14 @@ format:
   revealjs: 
     theme: solarized
     logo: img/CORI_Logo.png
-    footer: "URISA 2023"
 editor: visual
+title-slide-attributes:
+  data-background-image: img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg
+  data-background-size: contain
+  data-background-opacity: "0.5"
 ---
 
-## Our slides are online:
-
+## Our slides are online: {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 Slides realized in [Quarto](https://quarto.org/) hosted in [GitHub](https://github.com/ruralinnovation/conf_URISA_2023)
 
 ![](img/prez_qr.png)
@@ -22,7 +24,7 @@ Slides realized in [Quarto](https://quarto.org/) hosted in [GitHub](https://gith
 @drew unsure if I want that here or at the end
 :::
 
-## Who we are?
+## Who we are?{background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 \- Olivier 🇨🇵 Senior Data Engineer
 
@@ -36,7 +38,7 @@ how to contact us, fun facts
 @drew we could move for two slides if we includes picture of kids + backpack if we do we should emoji kids face
 :::
 
-## Center On Rural Innovation (CORI)
+## Center On Rural Innovation (CORI) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 > Advancing economic prosperity in rural America though the creation of inclusive tech economy ecosystem that support scalable entrepreneurship and tech job creation
 
@@ -52,7 +54,7 @@ Learn more at: <https://ruralinnovation.us/>
 Where does Broadband stand in CORI goals Here the focus is Broadband is an ingredient of tech ecosystem
 :::
 
-## Intro to problem/work
+## Intro to problem/work {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 -   The so "what".
 -   Examples of funding associated with these datasets (annual BB funding)
@@ -70,7 +72,7 @@ Interested in our works on the impact of rural definitions? [here!](https://rura
 @drew FCC staff are maybe not perfect but at least they are documentation and codes about it, unlike NBM
 :::
 
-## Historical context and new data context (1)
+## Historical context and new data context (1) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 -   [Federal Communications Commission](https://www.fcc.gov/): FCC
 
@@ -86,7 +88,7 @@ Interested in our works on the impact of rural definitions? [here!](https://rura
 | Granularity       | Census block     | Locations        |
 | Services          | Mobile/**Fixed**     | Mobile/**Fixed**     |
 
-## Historical context and new data context (2)
+## Historical context and new data context (2) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 Unserved: less than 25 MBps downloads and 3 MBps uploads 
 
@@ -113,7 +115,7 @@ should we add an iframe of some FCC NBM localisation?
 at least one rule: if one ISP said he was present with 25/3 in a census block then all location in that block was "Served"
 :::
 
-## Workflow: From FCC to our products
+## Workflow: From FCC to our products {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 ```{mermaid}
 flowchart LR
@@ -144,7 +146,7 @@ flowchart LR
 Tools used: Shell (Bash) with GNU tools (make, csvkit, sed) / SQL (PostgreSQL/PostGIS) / A bit of R (ease some processes)
 :::
 
-## Results general overview (1)
+## Results general overview (1) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 Diff between f477 and bdm:
   *  Improvement for 100_20 and fiber. 
@@ -176,7 +178,7 @@ Number are on overall pop
 @drew we could remove move out 25/3 > .2 and .5 for later 
 :::
 
-## Results Rural Areas underestimated in statitics  (2a)
+## Results Rural Areas underestimated in statitics  (2a) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 Here we look at the 20% threshold discussed previously 
 
@@ -186,7 +188,7 @@ Proportion of population "served" (at least 20%, 25/3) that is rural is 52,26%
 
 Proportion of population "Unserved" (less than 20%, 25/3) that is rural is 25.63%
 
-## Results Rural Areas underestimated in statitics  (2b)
+## Results Rural Areas underestimated in statitics  (2b) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 ![unserved_rural_not.png](img/unserved_rural_not.png)
 
@@ -197,7 +199,7 @@ unsure if "underestimated" is the correct word
 source NBM FCC staff for pop
 :::
 
-## Rural Overrepresented in poor broadband! (3)
+## Rural Overrepresented in poor broadband! (3) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 Observation about f477 -> NBM in US is similar in rural but "amplifed"
 
@@ -227,7 +229,7 @@ cat("##    source pct_coverage         type
 pct are over rural pop
 :::
 
-## Conclusion
+## Conclusion {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 Overall great improvement in data quality and better understanding on what is happening on the ground (is it enough?)
 
@@ -243,7 +245,7 @@ Rural areas are systematically underestimated by data definitions:
 @drew even if we use the tabulate 2010 2020 we will face some issues: where are the locations in % covered of x 2020 or y 2020 block
 :::
 
-## Next steps
+## Next steps {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 - Providing a reproducible way for other to explore FCC data at scale (moving our codes to public)
 - People moves / covid
@@ -251,6 +253,6 @@ Rural areas are systematically underestimated by data definitions:
 -   Fabric data (article you do not need fabric ?) (instead of using census block 2010 we could use locations )
 - API ? 
 
-## Questions?
+## Questions? {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 Thanks for your attention!
