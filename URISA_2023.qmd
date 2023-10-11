@@ -1,45 +1,102 @@
 ---
-title: "URISA_Prez"
-author: "Olivier & Drew"
-format: revealjs
+title: "Rural Areas overepresented in Unserved Areas and underestimated in statistics"
+subtitle: "Extending Broadband to Underserved Areas"
+author: "Olivier Leroy & Drew Rosebush"
+date: "October 18 2023"
+institute: "Center On Rural Innovation"
+format: 
+  revealjs: 
+    theme: solarized
+    logo: img/CORI_Logo.png
+    footer: "URISA 2023"
 editor: visual
 ---
 
-## Org presentation
+## Our slides are online: 
 
-CORI?
+Slides realized in [Quarto](https://quarto.org/) hosted in [GitHub](https://github.com/ruralinnovation/conf_URISA_2023)
 
-## Drew and Olivier presentation
+![](img/prez_qr.png)
 
-how to contact us, etc 
+Slides realized in [Quarto](https://quarto.org/) hosted in [GitHub](https://github.com/ruralinnovation/conf_URISA_2023)
+
+::: notes
+@drew unsure if I want that here or at the end
+:::
+
+## Who we are?
+
+\- Olivier 🇨🇵 Senior Data Engineer
+
+\- Drew 🇺🇸 Lead Data Scientist
+
+how to contact us, fun facts
+
+(photo off kids backpack)
+
+## Center On Rural Innovation (CORI)
+
+Goals of CORI!
+
+(should we use the "burrito")
+
+Where does Broadband stand in CORI goals
+
+-   learn more at: https://ruralinnovation.us/
+
+::: notes
+@drew I swapped our pressentation for "flow" concerns it makes more sense to move from CORI -\> to goal of presentation than cori -\> us -\> goal of presentation
+:::
 
 ## Intro to problem/work
 
-- The so "what". 
-- Examples of funding associated with these datasets (annual BB funding)
-- Discord channel <- as a good ressources 
+-   The so "what".
+-   Examples of funding associated with these datasets (annual BB funding)
+-   Discord channel \<- as a good ressources
 
-## Historical context and new data context
+## Historical context and new data context (1)
 
-- 477
-- Fabric data (article you do not need fabric ?)
+- Form 477: f477
+
+- [National Broadband Map](https://broadbandmap.fcc.gov/home): NBM
+
+|                   | f477             | NBM              |
+|-------------------|------------------|------------------|
+| US Census         | 2010             | 2020             |
+| Type of recording | declarativ (ISP) | declarativ (ISP) |
+| grain             | Census block     |                  |
+
+
+
+## Historical context and new data context (2)
+
+-   Fabric data (article you do not need fabric ?)
+-   challenges
 
 ## Work flow and outputs (1 slide 3 min)
 
-mermaid / link to repo 
+```{mermaid}
 
-TODO: clean repo 
+```
 
-## Results(2-3 slides 9 min) 
 
-- New data implication differences***
-- Numbers and tables of differences
+Tools used:
 
-## Conclusion/ 
+-   Shell (Bash) with GNU tools (make, csvkit, sed)
+-   SQL (PostgreSQL/PostGIS)
+-   A bit of R (ease some processes)
 
--  Upcoming FCC updates. 
-- Possible recommendations
+TODO: clean repo -\> move that to "what next"
 
+## Results(2-3 slides 9 min)
+
+-   New data implication differences\*\*\*
+-   Numbers and tables of differences
+
+## Conclusion/
+
+-   Upcoming FCC updates.
+-   Possible recommendations
 
 ## Questions (1 slide)
 
