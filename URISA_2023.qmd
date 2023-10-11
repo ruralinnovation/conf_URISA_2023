@@ -12,13 +12,11 @@ format:
 editor: visual
 ---
 
-## Our slides are online: 
+## Our slides are online:
 
 Slides realized in [Quarto](https://quarto.org/) hosted in [GitHub](https://github.com/ruralinnovation/conf_URISA_2023)
 
 ![](img/prez_qr.png)
-
-Slides realized in [Quarto](https://quarto.org/) hosted in [GitHub](https://github.com/ruralinnovation/conf_URISA_2023)
 
 ::: notes
 @drew unsure if I want that here or at the end
@@ -34,31 +32,48 @@ how to contact us, fun facts
 
 (photo off kids backpack)
 
+::: notes
+@drew we could move for two slides if we includes picture of kids + backpack if we do we should emoji kids face
+:::
+
 ## Center On Rural Innovation (CORI)
 
-Goals of CORI!
+> Advancing economic prosperity in rural America though the creation of inclusive tech economy ecosystem that support scalable entrepreneurship and tech job creation
 
-(should we use the "burrito")
+(should we use the "burrito" / I also like the def in rural tech workforce)
 
-Where does Broadband stand in CORI goals
-
--   learn more at: https://ruralinnovation.us/
+::: aside
+Learn more at: [https://ruralinnovation.us/](https://ruralinnovation.us/)
+:::
 
 ::: notes
 @drew I swapped our pressentation for "flow" concerns it makes more sense to move from CORI -\> to goal of presentation than cori -\> us -\> goal of presentation
+
+Where does Broadband stand in CORI goals
+Here the focus is Broadband is an ingredient of tech ecosystem
 :::
 
 ## Intro to problem/work
 
 -   The so "what".
 -   Examples of funding associated with these datasets (annual BB funding)
--   Discord channel \<- as a good ressources
+-   Discord channel \<- as a good ressources (or maybe the webinar of bb team?)
+
+Rural def need to be here also
+
+::: aside
+Interested in our works on the impact of rural definitions? [here!](https://ruralinnovation.us/blog/defining-rural-america/)
+:::
 
 ## Historical context and new data context (1)
 
-- Form 477: f477
+-   [Federal Communications Commission](https://www.fcc.gov/): FCC
 
-- [National Broadband Map](https://broadbandmap.fcc.gov/home): NBM
+-   [Form 477](https://www.fcc.gov/economics-analytics/industry-analysis-division/form-477-resources): f477
+
+-   [National Broadband Map](https://broadbandmap.fcc.gov/home): NBM
+
+Mobile and fixed (both)
 
 |                   | f477             | NBM              |
 |-------------------|------------------|------------------|
@@ -66,55 +81,73 @@ Where does Broadband stand in CORI goals
 | Type of recording | declarativ (ISP) | declarativ (ISP) |
 | grain             | Census block     |                  |
 
-
-
 ## Historical context and new data context (2)
+
+We need to specify some BB def here
 
 -   Fabric data (article you do not need fabric ?)
 -   challenges
 
-## Work flow and outputs (1 slide 3 min)
+## Workflow: From FCC to our products
 
 ```{mermaid}
-
+flowchart LR
+    A1[FCC Website] --> B1[Server]
+    A2[TIGER Census block] --> C2
+    subgraph Ingestion
+    direction TB
+    B1--> B2[Data Wrangling]
+    B2--> B3[Populate source DB]
+    end
+    subgraph Transform
+    direction TB
+    C1[Remove Sat.]--> C2[Count Services]
+    C2 --> C3[Blocks DB]
+    end
+    subgraph Serving
+    direction TB
+    D1[Prod. Server] --> D2[Analytic Tables]
+    end
+    Ingestion --> Transform
+    C3 --> D1
+    D1--> E1[Tools: <Br> Public CH <BR> Internal BCAT]
+    D2--> E1
+    D2 --> E4[Data team <BR> Broadband team]
 ```
-
-
-Tools used:
-
--   Shell (Bash) with GNU tools (make, csvkit, sed)
--   SQL (PostgreSQL/PostGIS)
--   A bit of R (ease some processes)
 
 TODO: clean repo -\> move that to "what next"
 
-## Results(2-3 slides 9 min)
+::: aside
+Tools used:
+Shell (Bash) with GNU tools (make, csvkit, sed) / SQL (PostgreSQL/PostGIS) / A bit of R (ease some processes)
+:::
+
+## Results general overview (1)
 
 -   New data implication differences\*\*\*
 -   Numbers and tables of differences
+
+::: notes
+need better name (2-3 slides 9 min)
+:::
+
+## Rural overrepresented in poor broadband! (2)
+
+here rural stuff
+
+## Results Data quality (3)
+
+could be first
 
 ## Conclusion/
 
 -   Upcoming FCC updates.
 -   Possible recommendations
 
-## Questions (1 slide)
+## Next steps
 
-## Quarto
+-   Providing a reproducible way for other to explore FCC data at scale (moving our codes to public)
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+## Questions?
 
-## Bullets
-
-When you click the **Render** button a document will be generated that includes:
-
--   Content authored with markdown
--   Output from executable code
-
-## Code
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
+Thanks for your attention!
