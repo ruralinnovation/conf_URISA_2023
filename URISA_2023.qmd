@@ -18,7 +18,7 @@ title-slide-attributes:
 ## Our slides are online: {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 Slides realized in [Quarto](https://quarto.org/) hosted in [GitHub](https://github.com/ruralinnovation/conf_URISA_2023)
 
-![](img/prez_qr.png)
+![](img/prez_qr.png){.center}
 
 ::: notes
 @drew unsure if I want that here or at the end
@@ -148,10 +148,6 @@ Tools used: Shell (Bash) with GNU tools (make, csvkit, sed) / SQL (PostgreSQL/Po
 
 ## Results general overview (1) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-Diff between f477 and bdm:
-  *  Improvement for 100_20 and fiber. 
-  *  But not for “25_3” / Unserved / Not reported. 
-
 
 ```{r}
 cat("##    source pct_coverage         type\b 
@@ -168,6 +164,11 @@ cat("##    source pct_coverage         type\b
 ## 11   f477        44.56    Has_fiber
 ## 12    nbm        56.41    Has_fiber")
 ```
+
+::: {.incremental}
+  *  Improvement for 100_20 and fiber. 
+  *  But not for “25_3” / Unserved / Not reported. 
+:::
 
 
 ::: aside
