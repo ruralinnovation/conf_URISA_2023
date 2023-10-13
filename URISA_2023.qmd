@@ -142,7 +142,7 @@ flowchart LR
 ```
 
 ::: aside
-Tools used: Shell (Bash) with GNU tools (make, csvkit, sed) / SQL (PostgreSQL/PostGIS) / A bit of R (ease some processes)
+Tools used: Shell (Bash) with GNU tools (make, csvkit, sed) and GDAL / SQL (PostgreSQL/PostGIS) / A bit of R (ease some processes)
 :::
 
 ## Workflow: {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
