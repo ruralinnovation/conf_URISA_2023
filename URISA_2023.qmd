@@ -26,7 +26,7 @@ library(janitor)
 ```
 
 
-![](img/prez_qr.png){.center}
+![](img/prez_qr.png)
 
 ::: notes
 @drew unsure if I want that here or at the end
@@ -50,23 +50,74 @@ how to contact us, fun facts
 
 > Advancing economic prosperity in rural America though the creation of inclusive tech economy ecosystem that support scalable entrepreneurship and tech job creation
 
-(should we use the "burrito" / I also like the def in rural tech workforce)
+
 
 ::: aside
 Learn more at: <https://ruralinnovation.us/>
 :::
 
-::: notes
-@drew I swapped our presentation for "flow" concerns it makes more sense to move from CORI -\> to goal of presentation than cori -\> us -\> goal of presentation
+## Center On Rural Innovation (CORI) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
+![](img/cori_tech_ecosystem_model.png)
+
+::: notes
 Where does Broadband stand in CORI goals Here the focus is Broadband is an ingredient of tech ecosystem
 :::
 
-## Intro to problem/work {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+## What’s on the line  {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
--   The so "what".
--   Examples of funding associated with these datasets (annual BB funding)
--   Discord channel \<- as a good ressources (or maybe the webinar of bb team?)
+:::: {.columns}
+
+::: {.column width="50%"}
+**Broadband Equity Access and Deployment (BEAD)** Program provides $42.45B to expand high-speed internet access by planning, infrastructure deployment, and adoption programs
+
+**Minimum BEAD allocations**  range from $25M (US territories) to $100M (states and Puerto Rico)
+
+**Remaining BEAD allocations** vary across states depending on the number and concentration of unserved  locations
+:::
+
+::: {.column width="50%"}
+![](img/BEAD.png)
+:::
+
+::::
+
+::: aside
+Source: [PEW](https://www.pewtrusts.org/en/research-and-analysis/issue-briefs/2023/01/what-states-need-to-know-about-federal-bead-funding-for-high-speed-internet-expansion)  / [State specific funding](https://broadbandusa.ntia.doc.gov/public-notice-posting-state-and-territory-bead-and-digital-equity-plansproposals)
+:::
+
+## BEAD Priorities {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+
+:::: {.columns}
+
+::: {.column width="40%"}
+**Coverage**  
+
+The program’s primary goal is to extend broadband internet service (≥ 25Mbps/3Mbps) to all
+
+**Technology** 
+
+The program prioritizes projects designed to provide fiber connectivity directly to the end user
+
+**Affordability**	
+
+The program prioritizes projects that aim at improving affordability of service
+:::
+
+::: {.column width="60%"}
+```{=html}
+<iframe width="780" height="500" src="https://broadbandmap.fcc.gov/home" title="FCC National Broadband Map"></iframe>
+```
+:::
+
+::::
+
+::: aside
+[BEAD NOFO](https://broadbandusa.ntia.doc.gov/sites/default/files/2022-05/BEAD%20NOFO.pdf)
+:::
+
+
+## TODO Rural def {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 Rural def need to be here also
 
@@ -159,23 +210,14 @@ fcc staff here
 
 -   Two releases per years (but multiple versions of one release, )
 
-## Results general overview (1) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+## Results general overview (1a) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 
-:::: {.columns}
+::: {layout-ncol=2}
+![](img/imp_data_quality_bd_services.png){width=350}
 
-::: {.column width="50%"}
-test
+![](img/imp_data_quality_gd_services.png){width=350}
 :::
-
-::: {.column width="0%"}
-
-bob
-
-![bob](img/unserved_rural_not.png)
-:::
-
-::::
 
 
 ::: aside
@@ -228,7 +270,7 @@ Proportion of population "Unserved" (less than 20%, 25/3) that is rural is 25.63
 
 ## Results Rural Areas underestimated in statitics  (2b) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-![unserved_rural_not.png](img/unserved_rural_not.png)
+![](img/unserved_rural_not.png)
 
 - Self declarative data set (FCC (CostQuest) provided the locations): effect on rural -> less interest to works here -> less interest to report on here? 
 
