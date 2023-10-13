@@ -4,10 +4,12 @@ subtitle: "Extending Broadband to Underserved Areas"
 author: "Olivier Leroy & Drew Rosebush"
 date: "October 18 2023"
 institute: "Center On Rural Innovation"
+fontsize: 20pt
 format: 
   revealjs: 
-    theme: solarized
+    theme: custom_cori.scss
     logo: img/CORI_Logo.png
+    css: logo.css
 editor: visual
 title-slide-attributes:
   data-background-image: img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg
@@ -62,8 +64,6 @@ Where does Broadband stand in CORI goals Here the focus is Broadband is an ingre
 
 Rural def need to be here also
 
-FCC staff estimation pop go here
-
 ::: aside
 Interested in our works on the impact of rural definitions? [here!](https://ruralinnovation.us/blog/defining-rural-america/)
 :::
@@ -76,35 +76,33 @@ Interested in our works on the impact of rural definitions? [here!](https://rura
 
 -   [Federal Communications Commission](https://www.fcc.gov/): FCC
 
--   [Form 477](https://www.fcc.gov/economics-analytics/industry-analysis-division/form-477-resources): f477
+-   [Form 477](https://www.fcc.gov/economics-analytics/industry-analysis-division/form-477-resources): F477
 
 -   [National Broadband Map](https://broadbandmap.fcc.gov/home): NBM
 
 
-|                   | f477             | NBM              |
+|                   | F477             | NBM              |
 |-------------------|------------------|------------------|
 | US Census         | 2010             | 2020             |
 | Type of recording | self declarative | self declarative |
-| Granularity       | Census block     | Locations        |
+| Granularity       | Census block     | [Locations](https://broadbandmap.fcc.gov/location-summary/fixed?version=dec2022&location_id=1350199199&addr1=390+MORGAN+ST&addr2=OBERLIN%2C+OH+44074&zoom=15.00&vlon=-82.231744&vlat=41.287448&br=r&speed=25_3&tech=1_2_3_4_5_6_7_8)        |
 | Services          | Mobile/**Fixed**     | Mobile/**Fixed**     |
 
-## Historical context and new data context (2) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+## Defining Broadband (2) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-Unserved: less than 25 MBps downloads and 3 MBps uploads 
 
-Underseved: less than 100 Mbps downloads and 20 uploads
+**Unserved**: less than 25/3 MBps downloads/uploads 
 
-f477: at least one rule
+**Underseved**: less than 100 Mbps downloads and 20 uploads
+
+F477: at least one rule
 
 With NBM we can know that at the location level. 
 
-BEAD definitions for Unserved block is if more than 80% of locations are Unserved. 
-
--   Challenges
-
--   Two releases per years (but multiple versions of one release, )
+BEAD definitions for **Unserved** block is if more than 80% of locations are Unserved. 
 
 ::: aside
+BEAD: Broadband Equity Access and Deployment Program
 (link/quotes to def. or pages)
 :::
 
@@ -118,6 +116,7 @@ at least one rule: if one ISP said he was present with 25/3 in a census block th
 ## Workflow: From FCC to our products {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 ```{mermaid}
+%%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '20px', 'fontFamily': 'Bitter'}}}%%
 flowchart LR
     A1[FCC Website] --> B1[Server]
     A2[TIGER Census block] --> C2
@@ -145,6 +144,14 @@ flowchart LR
 ::: aside
 Tools used: Shell (Bash) with GNU tools (make, csvkit, sed) / SQL (PostgreSQL/PostGIS) / A bit of R (ease some processes)
 :::
+
+## Workflow: {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+
+fcc staff here
+
+-   Challenges
+
+-   Two releases per years (but multiple versions of one release, )
 
 ## Results general overview (1) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
@@ -179,27 +186,6 @@ Number are on overall pop
 @drew we could remove move out 25/3 > .2 and .5 for later 
 :::
 
-## Results Rural Areas underestimated in statitics  (2a) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
-
-Here we look at the 20% threshold discussed previously 
-
-Proportion of population covered (at least one 25/3) that is rural is 15.91% (rest is urban)
-
-Proportion of population "served" (at least 20%, 25/3) that is rural is 52,26% 
-
-Proportion of population "Unserved" (less than 20%, 25/3) that is rural is 25.63%
-
-## Results Rural Areas underestimated in statitics  (2b) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
-
-![unserved_rural_not.png](img/unserved_rural_not.png)
-
-- Self declarative data set (FCC (CostQuest) provided the locations): effect on rural -> less interest to works here -> less interest to report on here? 
-
-::: notes
-unsure if "underestimated" is the correct word
-source NBM FCC staff for pop
-:::
-
 ## Rural Overrepresented in poor broadband! (3) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 Observation about f477 -> NBM in US is similar in rural but "amplifed"
@@ -229,6 +215,29 @@ cat("##    source pct_coverage         type
 ::: aside
 pct are over rural pop
 :::
+
+## Results Rural Areas underestimated in statitics  (2a) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+
+Here we look at the 20% threshold discussed previously 
+
+Proportion of population covered (at least one 25/3) that is rural is 15.91% (rest is urban)
+
+Proportion of population "served" (at least 20%, 25/3) that is rural is 52,26% 
+
+Proportion of population "Unserved" (less than 20%, 25/3) that is rural is 25.63%
+
+## Results Rural Areas underestimated in statitics  (2b) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+
+![unserved_rural_not.png](img/unserved_rural_not.png)
+
+- Self declarative data set (FCC (CostQuest) provided the locations): effect on rural -> less interest to works here -> less interest to report on here? 
+
+::: notes
+unsure if "underestimated" is the correct word
+source NBM FCC staff for pop
+:::
+
+
 
 ## Conclusion {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 

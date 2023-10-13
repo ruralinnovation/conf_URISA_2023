@@ -1,0 +1,29 @@
+/*-- scss:defaults --*/
+
+@import "base";
+@import url(./fonts/league-gothic/league-gothic.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+// fonts
+$font-family-sans-serif: Bitter, sans-serif !default;
+
+// colors
+$body-bg: #fff !default;
+$body-color: #657b83 !default;
+$link-color: #268bd2 !default;
+$selection-bg: #d33682 !default;
+
+// headings
+$presentation-heading-font: "TT Hoves", sans-serif !default;
+$presentation-heading-color: #586e75 !default;
+$presentation-heading-text-transform: uppercase !default;
+
+// code blocks
+$code-block-border-color: #93a1a1 !default;
+
+/*-- scss:rules --*/
+
+html * {
+  color-profile: sRGB;
+  rendering-intent: auto;
+}

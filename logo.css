@@ -1,0 +1,9 @@
+.reveal .slide-logo {
+  height: auto !important;
+  width: 150px !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+h1{
+  font-size: 40pt !important;
+}
