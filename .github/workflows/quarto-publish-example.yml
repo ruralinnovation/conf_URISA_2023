@@ -1,6 +1,6 @@
 on:
   push:
-    branches: main
+    branches: gh-pages
 
 name: Render and Publish
 
