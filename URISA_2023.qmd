@@ -20,6 +20,12 @@ title-slide-attributes:
 ## Our slides are online: {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 Slides realized in [Quarto](https://quarto.org/) hosted in [GitHub](https://github.com/ruralinnovation/conf_URISA_2023)
 
+```{r}
+library(cori.db)
+library(janitor)
+```
+
+
 ![](img/prez_qr.png){.center}
 
 ::: notes
@@ -156,26 +162,20 @@ fcc staff here
 ## Results general overview (1) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 
-```{r}
-cat("##    source pct_coverage         type\b 
-## 1    f477         0.83 Not reported
-## 2     nbm         1.15 Not reported
-## 3    f477         1.50     Unserved
-## 4     nbm         3.08     Unserved
-## 5    f477        97.66         25_3
-## 6     nbm        96.92         25_3
-## 7     nbm        92.41      25_3 .2
-## 8     nbm        94.73      25_3 .5
-## 9    f477        92.71       100_20
-## 10    nbm        94.91       100_20
-## 11   f477        44.56    Has_fiber
-## 12    nbm        56.41    Has_fiber")
-```
+:::: {.columns}
 
-::: {.incremental}
-  *  Improvement for 100_20 and fiber. 
-  *  But not for “25_3” / Unserved / Not reported. 
+::: {.column width="50%"}
+test
 :::
+
+::: {.column width="0%"}
+
+bob
+
+![bob](img/unserved_rural_not.png)
+:::
+
+::::
 
 
 ::: aside
