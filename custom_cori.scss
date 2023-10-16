@@ -9,7 +9,7 @@ $font-family-sans-serif: Bitter, sans-serif !default;
 
 // colors
 $body-bg: #fff !default;
-$body-color: #657b83 !default;
+$body-color: #000 !default;
 $link-color: #268bd2 !default;
 $selection-bg: #d33682 !default;
 
@@ -26,4 +26,11 @@ $code-block-border-color: #93a1a1 !default;
 html * {
   color-profile: sRGB;
   rendering-intent: auto;
+}
+
+.reveal .slide div.aside {
+  position: absolute;
+  bottom: 50px !important;
+  font-size: #{$presentation-font-smaller}em;
+  color: $text-muted;
 }

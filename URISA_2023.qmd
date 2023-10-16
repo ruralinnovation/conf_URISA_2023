@@ -42,12 +42,12 @@ Drew 🇺🇸 Lead Data Scientist
 :::
 
 ::: notes
-@drew we could move for two slides if we includes picture of kids + backpack if we do we should emoji kids face
+@drew 
 :::
 
 ## Center On Rural Innovation (CORI) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-> *Advancing economic prosperity in rural America though the creation of inclusive tech economy ecosystem that support scalable entrepreneurship and tech job creation*
+*Advancing economic prosperity in rural America though the creation of inclusive tech economy ecosystem that support scalable entrepreneurship and tech job creation*
 
 ::: aside
 Learn more at: <https://ruralinnovation.us/>
@@ -139,16 +139,32 @@ Source: [PEW](https://www.pewtrusts.org/en/research-and-analysis/issue-briefs/20
 drew
 :::
 
-## TODO Rural def {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+## Defining Rural {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-Rural def need to be here also
+::: columns
+::: {.column width="40%"}
+"Rural" refers to the "**nonmetro plus**" definition: includes all nonmetro counties and all tracts classified as RUCA 4 or higher.
 
-::: aside
-Interested in our works on the impact of rural definitions? [here!](https://ruralinnovation.us/blog/defining-rural-america/)
+USDA’s Rural-Urban Community Area (RUCA) codes categorize rural areas by population density, urbanization, and daily commuting.
+
+More nuanced rural definition, classifying rural places along a continuum.
+
+By combining the definition it better encapsulates places that are rural in character.
+
 :::
 
+::: {.column width="60%"}
+
+![](img/different_rural_defs.svg){fig-align="center"}
+For more information see CORI’s blog post [Defining rural America: The consequences of how we count for more information](https://ruralinnovation.us/blog/defining-rural-america/).
+
+:::
+:::
+
+
+
 ::: notes
-@drew FCC staff are maybe not perfect but at least they are documentation and codes about it, unlike NBM
+@drew 
 :::
 
 
@@ -325,6 +341,5 @@ Rural areas are systematically underestimated by data definitions:
 Interested about [CORI](https://ruralinnovation.us):
 [LinkedIn](https://www.linkedin.com/company/11099658) | [Twitter](https://twitter.com/Ruralinno) |[Facebook](https://www.facebook.com/RuralInno/) | [Instagram](https://www.instagram.com/ruralinno/) | [YouTube](https://www.youtube.com/channel/UCyqbtSrv4Nad9vVv4dQptcA) 
 
-Thanks for your attention!
 
 ![](img/prez_qr.png){height="100" fig-align="center"}
