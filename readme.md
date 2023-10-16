@@ -2,13 +2,18 @@
 
 now: 
 
+- [ ] verify year for release F477 and NBM -> historical
+- [ ] change iphrame size
+- [ ] move historical before BEAD and change title
 - [ ] correct background color mermaid
 - [ ] Present FCC staff data 
 - [ ] Linking FCC staff rural def and BB data
-- [ ] Linking other products ?
+- [X] Linking other products ?
+    - [ ] CH https://broadband-risk.ruralinnovation.us/
 - [ ] Last page: our contact information 
-- [ ] reply to Pat Francis
 - [ ] convert stuff from drew
+- [x] [need a better burrito]
+- [ ] center BEAD 
 - [ ] move fcc staff and maybe rural def after workflow?
 - [ ] CORIse the hu vs FCC locations
 - [x] change f -> F for Form 477
@@ -19,11 +24,15 @@ now:
 - [x] increase mermaid schema
 - [ ] graph overall us:
   - [ ] twink char size text 
-  - [ ] remove legend in one sixe at least "sources"
+  - [X] remove legend in one sixe at least "sources"
   - [ ] Maybe add text  
-  - [ ] change label name
+  - [X] change label name
+
+- [ ] graph evol F477 -> NBM
+  - [ ] change US for non rural
   
 - [ ] graph with share of pop depending on threshold
+
     - [X] convert to bar with share (should we try line with cumulative sum)
     - [ ] correct vline ?
     - [ ] adjust legend 
