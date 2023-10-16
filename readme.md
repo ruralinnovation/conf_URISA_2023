@@ -2,22 +2,22 @@
 
 now: 
 
-- [ ] change link in mermaid to presentation an not localhost
+- [X] change link in mermaid to presentation an not localhost
 - [X] move cori logo top right
 - [ ] verify year for release F477 and NBM -> historical
 - [ ] change iphrame size
 - [X] move historical before BEAD and change title
 - [ ] correct background color mermaid
-- [ ] Present FCC staff data 
+- [X] Present FCC staff data 
 - [ ] Linking FCC staff rural def and BB data
 - [X] Linking other products ?
     - [ ] CH https://broadband-risk.ruralinnovation.us/
-- [ ] Last page: our contact information 
+- [X] Last page: our contact information 
 - [ ] convert stuff from drew
 - [x] [need a better burrito]
 - [ ] center BEAD 
-- [ ] move fcc staff and maybe rural def after workflow?
-- [ ] CORIse the hu vs FCC locations
+- [X] move fcc staff and maybe rural def after workflow?
+- [ ] CORIse the hu vs FCC locations -> prob no
 - [x] change f -> F for Form 477
   -> in text 
   -> in graph  
@@ -41,9 +41,11 @@ now:
     - [ ] correct vline ?
     - [ ] adjust legend 
     - [ ] rotate maybe ?
-- [ ] check numbering on title slide
-
     
-
-    - [ ] not ru and ru is just a column: do one rds/csv
+- [ ] check numbering on title slide
+- [ ] review titles of every slides
+- [ ] reinforce conclusion
+- [ ] next steps
+- [ ] adds something on slides cori
+- [ ] works on  Results Rural Areas underestimated in statitics
   

@@ -27,19 +27,19 @@ Slides realized in [Quarto](https://quarto.org/) hosted in [GitHub](https://gith
 
 ::: columns
 ::: {.column width="50%"}
-\- Olivier 🇨🇵 Senior Data Engineer
 
 ![](img/dad_fall.png)
+
+Olivier 🇨🇵 Senior Data Engineer
 :::
 
 ::: {.column width="50%"}
-\- Drew 🇺🇸 Lead Data Scientist
 
 ![](img/dad_waterfall.png){height="500"}
-:::
-:::
 
-(photo off kids backpack)
+Drew 🇺🇸 Lead Data Scientist
+:::
+:::
 
 ::: notes
 @drew we could move for two slides if we includes picture of kids + backpack if we do we should emoji kids face
@@ -197,11 +197,13 @@ Tools used: Shell (Bash) with GNU tools (make, csvkit, sed) and GDAL / SQL (Post
 
 Why we like it: 
 
--   Dataset provided for 2010 and 2020 US census boundaries
+-   Dataset provided for **both** 2010 and 2020 US census boundaries
 
 -   FCC provides their methodology and codes
 
 -   Same institution that NBM and F477
+
+-   Provides estimates for housing units  
 
 ## Results general overview (1a) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
@@ -241,7 +243,7 @@ On total US population
 Rural has a worth bb access: \* more Not Reported / Unserved. \* less coverage, especialy fiber.
 :::
 
-## Results Rural Areas underestimated in statitics (2a) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+## Results Rural Areas underestimated in statistics (2a) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 Here we look at the 20% threshold discussed previously
 
@@ -254,8 +256,6 @@ Proportion of population "Unserved" (less than 20%, 25/3) that is rural is 25.63
 ## Results Rural Areas underestimated in statitics (2b) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 ![](img/unserved_rural_not.png)
-
--   Self declarative data set (FCC (CostQuest) provided the locations): effect on rural -\> less interest to works here -\> less interest to report on here?
 
 ::: notes
 unsure if "underestimated" is the correct word source NBM FCC staff for pop
@@ -307,7 +307,7 @@ Rural areas are systematically underestimated by data definitions: - at least on
 ::: {.column width="50%"}
 \- **Drew Rosebush**
 
-📧: [drew.rosebush@ruralinnovation.us](https://ruralinnovation.github.io/conf_URISA_2023/#/workflow-from-fcc-to-our-products)
+📧: [drew.rosebush@ruralinnovation.us](drew.rosebush@ruralinnovation.us)
 
 [LinkedIn](https://www.linkedin.com/in/drewrosebush/?trk=people-guest_people_search-card)
 
