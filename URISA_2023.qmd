@@ -261,15 +261,21 @@ Proportion of population "Unserved" (less than 20%, 25/3) that is rural is 25.63
 unsure if "underestimated" is the correct word source NBM FCC staff for pop
 :::
 
-## Conclusion {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
-
-Overall great improvement in data quality and better understanding on what is happening on the ground (is it enough?):
-
--   Individual can ground truth their location ([challenges](https://www.fcc.gov/sites/default/files/bdc-challenge-overview.pdf))
+## Conclusions {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 Rural areas appears to have lower broadband access
 
-Rural areas are systematically underestimated by data definitions: - at least one rule (see def f477 -\> bdm for rural).\
+![](img/rural_nonrural_broadband_gap.png){fig-align="center"}
+
+Overall great improvement in data quality and better understanding on what is happening on the ground (is it enough?)
+
+
+## Conclusions {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+
+-   Individual can ground truth their location ([challenges](https://www.fcc.gov/sites/default/files/bdc-challenge-overview.pdf))
+
+Rural areas are systematically underestimated by data definitions:   
+- at least one rule (see def f477 -\> bdm for rural).\
 - 20% rules.
 
 -   what are we measuring an improvement on coverage or an improvement on data quality?
@@ -294,7 +300,7 @@ Rural areas are systematically underestimated by data definitions: - at least on
 
 ::: columns
 ::: {.column width="50%"}
-\- **Olivier Leroy**
+**Olivier Leroy**
 
 📧: [olivier.leroy@ruralinnovations](olivier.leroy@ruralinnovations) 
 
@@ -302,10 +308,8 @@ Rural areas are systematically underestimated by data definitions: - at least on
 
 :::
 
-
-
 ::: {.column width="50%"}
-\- **Drew Rosebush**
+**Drew Rosebush**
 
 📧: [drew.rosebush@ruralinnovation.us](drew.rosebush@ruralinnovation.us)
 
@@ -317,6 +321,9 @@ Rural areas are systematically underestimated by data definitions: - at least on
 
 :::
 :::
+
+Interested about [CORI](https://ruralinnovation.us):
+[LinkedIn](https://www.linkedin.com/company/11099658) | [Twitter](https://twitter.com/Ruralinno) |[Facebook](https://www.facebook.com/RuralInno/) | [Instagram](https://www.instagram.com/ruralinno/) | [YouTube](https://www.youtube.com/channel/UCyqbtSrv4Nad9vVv4dQptcA) 
 
 Thanks for your attention!
 
