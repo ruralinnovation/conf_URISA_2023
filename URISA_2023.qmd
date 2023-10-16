@@ -28,7 +28,7 @@ Slides realized in [Quarto](https://quarto.org/) hosted in [GitHub](https://gith
 ::: columns
 ::: {.column width="50%"}
 
-![](img/dad_fall.png)
+![](img/dad_fall.png){height="500"}
 
 Olivier 🇨🇵 Senior Data Engineer
 :::
@@ -55,7 +55,7 @@ Learn more at: <https://ruralinnovation.us/>
 
 ## Center On Rural Innovation (CORI) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-![](img/cori_triangle.png)
+![](img/cori_triangle_w_note.png)
 
 ::: notes
 Where does Broadband stand in CORI goals Here the focus is Broadband is an ingredient of tech ecosystem
