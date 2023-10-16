@@ -51,7 +51,7 @@ Slides realized in [Quarto](https://quarto.org/) hosted in [GitHub](https://gith
 
 ## Center On Rural Innovation (CORI) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-> Advancing economic prosperity in rural America though the creation of inclusive tech economy ecosystem that support scalable entrepreneurship and tech job creation
+> *Advancing economic prosperity in rural America though the creation of inclusive tech economy ecosystem that support scalable entrepreneurship and tech job creation*
 
 
 
@@ -67,31 +67,22 @@ Learn more at: <https://ruralinnovation.us/>
 Where does Broadband stand in CORI goals Here the focus is Broadband is an ingredient of tech ecosystem
 :::
 
-## What’s on the line  {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+## Historical and new data context {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-:::: {.columns}
+-   [Federal Communications Commission](https://www.fcc.gov/): FCC
 
-::: {.column width="50%"}
-**Broadband Equity Access and Deployment (BEAD)** Program provides $42.45B to expand high-speed internet access by planning, infrastructure deployment, and adoption programs
+-   [Form 477](https://www.fcc.gov/economics-analytics/industry-analysis-division/form-477-resources): F477
 
-**Minimum BEAD allocations**  range from $25M (US territories) to $100M (states and Puerto Rico)
+-   [National Broadband Map](https://broadbandmap.fcc.gov/home): NBM
 
-**Remaining BEAD allocations** vary across states depending on the number and concentration of unserved  locations
-:::
 
-::: {.column width="50%"}
-![](img/BEAD.png)
-:::
+|                   | F477             | NBM              |
+|-------------------|------------------|------------------|
+| US Census Boundaries        | 2010             | 2020             |
+| Type of recording | self declarative | self declarative |
+| Granularity       | Census block     | [Locations](https://broadbandmap.fcc.gov/location-summary/fixed?version=dec2022&location_id=1350199199&addr1=390+MORGAN+ST&addr2=OBERLIN%2C+OH+44074&zoom=15.00&vlon=-82.231744&vlat=41.287448&br=r&speed=25_3&tech=1_2_3_4_5_6_7_8)        |
+| Services          | Mobile/**Fixed**     | Mobile/**Fixed**     |
 
-::::
-
-::: aside
-Source: [PEW](https://www.pewtrusts.org/en/research-and-analysis/issue-briefs/2023/01/what-states-need-to-know-about-federal-bead-funding-for-high-speed-internet-expansion)  / [State specific funding](https://broadbandusa.ntia.doc.gov/public-notice-posting-state-and-territory-bead-and-digital-equity-plansproposals)
-:::
-
-::: notes
-drew
-:::
 
 ## BEAD Priorities {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
@@ -122,6 +113,34 @@ The program prioritizes projects that aim at improving affordability of service
 ::: aside
 Source: [BEAD NOFO](https://broadbandusa.ntia.doc.gov/sites/default/files/2022-05/BEAD%20NOFO.pdf)
 :::
+
+
+## What’s on the line  {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Broadband Equity Access and Deployment (BEAD)** Program provides $42.45B to expand high-speed internet access by planning, infrastructure deployment, and adoption programs
+
+**Minimum BEAD allocations**  range from $25M (US territories) to $100M (states and Puerto Rico)
+
+**Remaining BEAD allocations** vary across states depending on the number and concentration of unserved  locations
+:::
+
+::: {.column width="50%"}
+![](img/BEAD.png)
+:::
+
+::::
+
+::: aside
+Source: [PEW](https://www.pewtrusts.org/en/research-and-analysis/issue-briefs/2023/01/what-states-need-to-know-about-federal-bead-funding-for-high-speed-internet-expansion)  / [State specific funding](https://broadbandusa.ntia.doc.gov/public-notice-posting-state-and-territory-bead-and-digital-equity-plansproposals)
+:::
+
+::: notes
+drew
+:::
+
 
 
 ## TODO Rural def {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
@@ -157,11 +176,7 @@ Interested in our works on the impact of rural definitions? [here!](https://rura
 
 **Unserved**: less than 25/3 MBps downloads/uploads 
 
-**Underseved**: less than 100 Mbps downloads and 20 uploads
-
 F477: at least one rule
-
-With NBM we can know that at the location level. 
 
 BEAD definitions for **Unserved** area is if more than 80% of locations are Unserved. 
 
