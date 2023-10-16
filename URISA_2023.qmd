@@ -18,30 +18,26 @@ title-slide-attributes:
 ---
 
 ## Our slides are online: {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+
 Slides realized in [Quarto](https://quarto.org/) hosted in [GitHub](https://github.com/ruralinnovation/conf_URISA_2023)
 
-![](img/prez_qr.png){fig-align="center"}
+![](img/prez_qr.png){height="300" fig-align="center"}
 
+## Who we are? {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-## Who we are?{background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
-
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
 \- Olivier 🇨🇵 Senior Data Engineer
 
 ![](img/dad_fall.png)
-
 :::
 
 ::: {.column width="50%"}
 \- Drew 🇺🇸 Lead Data Scientist
 
-![](img/dad_waterfall.png){height=500}
+![](img/dad_waterfall.png){height="500"}
 :::
-
-::::
-
+:::
 
 (photo off kids backpack)
 
@@ -52,8 +48,6 @@ Slides realized in [Quarto](https://quarto.org/) hosted in [GitHub](https://gith
 ## Center On Rural Innovation (CORI) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 > *Advancing economic prosperity in rural America though the creation of inclusive tech economy ecosystem that support scalable entrepreneurship and tech job creation*
-
-
 
 ::: aside
 Learn more at: <https://ruralinnovation.us/>
@@ -75,29 +69,37 @@ Where does Broadband stand in CORI goals Here the focus is Broadband is an ingre
 
 -   [National Broadband Map](https://broadbandmap.fcc.gov/home): NBM
 
+-   **Unserved**: less than 25/3 MBps downloads/uploads
 
-|                   | F477             | NBM              |
-|-------------------|------------------|------------------|
-| US Census Boundaries        | 2010             | 2020             |
-| Type of recording | self declarative | self declarative |
-| Granularity       | Census block     | [Locations](https://broadbandmap.fcc.gov/location-summary/fixed?version=dec2022&location_id=1350199199&addr1=390+MORGAN+ST&addr2=OBERLIN%2C+OH+44074&zoom=15.00&vlon=-82.231744&vlat=41.287448&br=r&speed=25_3&tech=1_2_3_4_5_6_7_8)        |
-| Services          | Mobile/**Fixed**     | Mobile/**Fixed**     |
+|                      | F477             | NBM                                                                                                                                                                                                                                  |
+|-------------------------|------------------------|------------------------|
+| US Census Boundaries | 2010             | 2020                                                                                                                                                                                                                                 |
+| Type of recording    | self declarative | self declarative                                                                                                                                                                                                                     |
+| Granularity          | Census block     | [Locations](https://broadbandmap.fcc.gov/location-summary/fixed?version=dec2022&location_id=1350199199&addr1=390+MORGAN+ST&addr2=OBERLIN%2C+OH+44074&zoom=15.00&vlon=-82.231744&vlat=41.287448&br=r&speed=25_3&tech=1_2_3_4_5_6_7_8) |
+| Services             | Mobile/**Fixed** | Mobile/**Fixed**  |                                                                                      
+F477: at least one rule
 
+BEAD definitions for **Unserved** area is if more than 80% of locations are Unserved.
+
+::: notes
+some BB defs here should we add an iframe of some FCC NBM localisation?
+
+at least one rule: if one ISP said he was present with 25/3 in a census block then all location in that block was "Served"
+:::
 
 ## BEAD Priorities {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="40%"}
-**Coverage**  
+**Coverage**
 
-The program’s primary goal is to extend broadband internet service (≥ 25Mbps/3Mbps) to all
+The program's primary goal is to extend broadband internet service (≥ 25Mbps/3Mbps) to all
 
-**Technology** 
+**Technology**
 
 The program prioritizes projects designed to provide fiber connectivity directly to the end user
 
-**Affordability**	
+**Affordability**
 
 The program prioritizes projects that aim at improving affordability of service
 :::
@@ -107,41 +109,35 @@ The program prioritizes projects that aim at improving affordability of service
 <iframe width="780" height="500" src="https://broadbandmap.fcc.gov/home" title="FCC National Broadband Map"></iframe>
 ```
 :::
-
-::::
+:::
 
 ::: aside
 Source: [BEAD NOFO](https://broadbandusa.ntia.doc.gov/sites/default/files/2022-05/BEAD%20NOFO.pdf)
 :::
 
+## What's on the line {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-## What’s on the line  {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
-
-:::: {.columns}
-
+::: columns
 ::: {.column width="50%"}
-**Broadband Equity Access and Deployment (BEAD)** Program provides $42.45B to expand high-speed internet access by planning, infrastructure deployment, and adoption programs
+**Broadband Equity Access and Deployment (BEAD)** Program provides \$42.45B to expand high-speed internet access by planning, infrastructure deployment, and adoption programs
 
-**Minimum BEAD allocations**  range from $25M (US territories) to $100M (states and Puerto Rico)
+**Minimum BEAD allocations** range from \$25M (US territories) to \$100M (states and Puerto Rico)
 
-**Remaining BEAD allocations** vary across states depending on the number and concentration of unserved  locations
+**Remaining BEAD allocations** vary across states depending on the number and concentration of unserved locations
 :::
 
 ::: {.column width="50%"}
 ![](img/BEAD.png)
 :::
-
-::::
+:::
 
 ::: aside
-Source: [PEW](https://www.pewtrusts.org/en/research-and-analysis/issue-briefs/2023/01/what-states-need-to-know-about-federal-bead-funding-for-high-speed-internet-expansion)  / [State specific funding](https://broadbandusa.ntia.doc.gov/public-notice-posting-state-and-territory-bead-and-digital-equity-plansproposals)
+Source: [PEW](https://www.pewtrusts.org/en/research-and-analysis/issue-briefs/2023/01/what-states-need-to-know-about-federal-bead-funding-for-high-speed-internet-expansion) / [State specific funding](https://broadbandusa.ntia.doc.gov/public-notice-posting-state-and-territory-bead-and-digital-equity-plansproposals)
 :::
 
 ::: notes
 drew
 :::
-
-
 
 ## TODO Rural def {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
@@ -155,42 +151,6 @@ Interested in our works on the impact of rural definitions? [here!](https://rura
 @drew FCC staff are maybe not perfect but at least they are documentation and codes about it, unlike NBM
 :::
 
-## Historical context and new data context (1) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
-
--   [Federal Communications Commission](https://www.fcc.gov/): FCC
-
--   [Form 477](https://www.fcc.gov/economics-analytics/industry-analysis-division/form-477-resources): F477
-
--   [National Broadband Map](https://broadbandmap.fcc.gov/home): NBM
-
-
-|                   | F477             | NBM              |
-|-------------------|------------------|------------------|
-| US Census Boundaries        | 2010             | 2020             |
-| Type of recording | self declarative | self declarative |
-| Granularity       | Census block     | [Locations](https://broadbandmap.fcc.gov/location-summary/fixed?version=dec2022&location_id=1350199199&addr1=390+MORGAN+ST&addr2=OBERLIN%2C+OH+44074&zoom=15.00&vlon=-82.231744&vlat=41.287448&br=r&speed=25_3&tech=1_2_3_4_5_6_7_8)        |
-| Services          | Mobile/**Fixed**     | Mobile/**Fixed**     |
-
-## Defining Broadband (2) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
-
-
-**Unserved**: less than 25/3 MBps downloads/uploads 
-
-F477: at least one rule
-
-BEAD definitions for **Unserved** area is if more than 80% of locations are Unserved. 
-
-::: aside
-BEAD: Broadband Equity Access and Deployment Program
-(link/quotes to def. or pages)
-:::
-
-::: notes
-some BB defs here
-should we add an iframe of some FCC NBM localisation? 
-
-at least one rule: if one ISP said he was present with 25/3 in a census block then all location in that block was "Served"
-:::
 
 ## Workflow: From FCC to our products {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
@@ -220,32 +180,32 @@ flowchart LR
     D2 --> E4[Data team <BR> Broadband team]
     D2 --> E5[URISA]
     click E1 "https://broadband-risk.ruralinnovation.us/" _parent
-    click E5 "http://localhost:5317/#/workflow-from-fcc-to-our-products" _parent
+    click E5 "https://ruralinnovation.github.io/conf_URISA_2023/#/workflow-from-fcc-to-our-products" _parent
 ```
 
 -   Two releases per years (but multiple versions of one release, 7 for Dec. 2022)
 
-- 440 files for 11GB zipped (*Fixed*)
+-   440 files for 11GB zipped (*Fixed*)
 
 ::: aside
 Tools used: Shell (Bash) with GNU tools (make, csvkit, sed) and GDAL / SQL (PostgreSQL/PostGIS) / A bit of R (ease some processes)
 :::
 
-## Workflow: {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+## Workflow: Joining blocks with population {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-fcc staff here
+[FCC staff estimates](https://www.fcc.gov/staff-block-estimates):
 
-- links 
+Why we like it: 
 
-- dataset works for 2010 and 2020 US census boundaries
+-   Dataset provided for 2010 and 2020 US census boundaries
 
-- FCC provides their methodology and codes
+-   FCC provides their methodology and codes
+
+-   Same institution that NBM and F477
 
 ## Results general overview (1a) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-
-::: {.panel-tabset}
-
+::: panel-tabset
 ### Not Reported - Unserved
 
 ![](img/imp_data_quality_bd_services.png)
@@ -253,9 +213,7 @@ fcc staff here
 ### Fiber access - 100/20 MBps
 
 ![](img/imp_data_quality_gd_services.png)
-
 :::
-
 
 ::: aside
 On total US population
@@ -267,68 +225,54 @@ On total US population
 
 ## Rural Overrepresented in poor broadband! {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-
-::: {.panel-tabset}
-
-###  NBM
+::: panel-tabset
+### NBM
 
 ![](img/rural_vs_non_rual_nbm.png)
 
 ### F477
 
 ![](img/rural_vs_non_rual_f477.png)
-
 :::
-
 
 ::: notes
-@olivier
-Observation about f477 -> NBM in US is similar in rural but "amplifed"
+@olivier Observation about f477 -\> NBM in US is similar in rural but "amplifed"
 
-Rural has a worth bb access:
-  * more Not Reported / Unserved. 
-  * less coverage, especialy fiber. 
-
+Rural has a worth bb access: \* more Not Reported / Unserved. \* less coverage, especialy fiber.
 :::
 
-## Results Rural Areas underestimated in statitics  (2a) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+## Results Rural Areas underestimated in statitics (2a) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-Here we look at the 20% threshold discussed previously 
+Here we look at the 20% threshold discussed previously
 
 Proportion of population covered (at least one 25/3) that is rural is 15.91% (rest is urban)
 
-Proportion of population "served" (at least 20%, 25/3) that is rural is 52,26% 
+Proportion of population "served" (at least 20%, 25/3) that is rural is 52,26%
 
 Proportion of population "Unserved" (less than 20%, 25/3) that is rural is 25.63%
 
-## Results Rural Areas underestimated in statitics  (2b) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+## Results Rural Areas underestimated in statitics (2b) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 ![](img/unserved_rural_not.png)
 
-- Self declarative data set (FCC (CostQuest) provided the locations): effect on rural -> less interest to works here -> less interest to report on here? 
+-   Self declarative data set (FCC (CostQuest) provided the locations): effect on rural -\> less interest to works here -\> less interest to report on here?
 
 ::: notes
-unsure if "underestimated" is the correct word
-source NBM FCC staff for pop
+unsure if "underestimated" is the correct word source NBM FCC staff for pop
 :::
-
-
 
 ## Conclusion {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 Overall great improvement in data quality and better understanding on what is happening on the ground (is it enough?):
 
-- Individual can ground truth their location ([challenges](https://www.fcc.gov/sites/default/files/bdc-challenge-overview.pdf))
-
+-   Individual can ground truth their location ([challenges](https://www.fcc.gov/sites/default/files/bdc-challenge-overview.pdf))
 
 Rural areas appears to have lower broadband access
 
-Rural areas are systematically underestimated by data definitions:
-  - at least one rule (see def f477 -> bdm for rural).  
-  - 20% rules. 
-  
-  * what are we measuring an improvement on coverage or an improvement on data quality?
+Rural areas are systematically underestimated by data definitions: - at least one rule (see def f477 -\> bdm for rural).\
+- 20% rules.
 
+-   what are we measuring an improvement on coverage or an improvement on data quality?
 
 ::: notes
 @drew even if we use the tabulate 2010 2020 we will face some issues: where are the locations in % covered of x 2020 or y 2020 block
@@ -336,15 +280,44 @@ Rural areas are systematically underestimated by data definitions:
 
 ## Next steps {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-- Providing a reproducible way for other to explore FCC data at scale (moving our codes to public)
-- People moves / covid
+-   Providing a reproducible way for other to explore FCC data at scale (moving our codes to public)
+
+-   People moves / covid
 
 -   Upcoming FCC updates.
--   Fabric data (article you do not need fabric ?) (instead of using census block 2010 we could use locations )
-- API ? 
 
-## Questions? {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+-   Fabric data (article you do not need fabric ?) (instead of using census block 2010 we could use locations )
+
+-   API ?
+
+## Contacts {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+
+::: columns
+::: {.column width="50%"}
+\- **Olivier Leroy**
+
+📧: [olivier.leroy@ruralinnovations](olivier.leroy@ruralinnovations) 
+
+[LinkedIn](https://www.linkedin.com/in/olivier-leroy-r/)
+
+:::
+
+
+
+::: {.column width="50%"}
+\- **Drew Rosebush**
+
+📧: [drew.rosebush@ruralinnovation.us](https://ruralinnovation.github.io/conf_URISA_2023/#/workflow-from-fcc-to-our-products)
+
+[LinkedIn](https://www.linkedin.com/in/drewrosebush/?trk=people-guest_people_search-card)
+
+:::
+
+::: columns
+
+:::
+:::
 
 Thanks for your attention!
 
-![](img/prez_qr.png){height=100}
+![](img/prez_qr.png){height="100" fig-align="center"}
