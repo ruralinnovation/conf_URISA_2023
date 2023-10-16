@@ -49,13 +49,12 @@ Drew 🇺🇸 Lead Data Scientist
 
 *Advancing economic prosperity in rural America though the creation of inclusive tech economy ecosystem that support scalable entrepreneurship and tech job creation*
 
-::: aside
-Learn more at: <https://ruralinnovation.us/>
-:::
-
-## Center On Rural Innovation (CORI) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
-
 ![](img/cori_triangle_w_note.png)
+
+
+<p style="text-align:right;">
+Learn more at: <https://ruralinnovation.us/>
+</p>
 
 ::: notes
 Where does Broadband stand in CORI goals Here the focus is Broadband is an ingredient of tech ecosystem
@@ -76,7 +75,9 @@ Where does Broadband stand in CORI goals Here the focus is Broadband is an ingre
 | US Census Boundaries | 2010             | 2020                                                                                                                                                                                                                                 |
 | Type of recording    | self declarative | self declarative                                                                                                                                                                                                                     |
 | Granularity          | Census block     | [Locations](https://broadbandmap.fcc.gov/location-summary/fixed?version=dec2022&location_id=1350199199&addr1=390+MORGAN+ST&addr2=OBERLIN%2C+OH+44074&zoom=15.00&vlon=-82.231744&vlat=41.287448&br=r&speed=25_3&tech=1_2_3_4_5_6_7_8) |
-| Services             | Mobile/**Fixed** | Mobile/**Fixed**  |                                                                                      
+| Services             | Mobile/**Fixed** | Mobile/**Fixed**  |
+| Releases | 2019-2022 | 2022 - *Ongoing* |
+
 F477: at least one rule
 
 BEAD definitions for **Unserved** area is if more than 80% of locations are Unserved.
@@ -156,7 +157,7 @@ By combining the definition it better encapsulates places that are rural in char
 ::: {.column width="60%"}
 
 ![](img/different_rural_defs.svg){fig-align="center"}
-For more information see CORI’s blog post [Defining rural America: The consequences of how we count for more information](https://ruralinnovation.us/blog/defining-rural-america/).
+For more information see [Defining rural America: The consequences of how we count for more information](https://ruralinnovation.us/blog/defining-rural-america/).
 
 :::
 :::
@@ -197,6 +198,9 @@ flowchart LR
     D2 --> E5[URISA]
     click E1 "https://broadband-risk.ruralinnovation.us/" _parent
     click E5 "https://ruralinnovation.github.io/conf_URISA_2023/#/workflow-from-fcc-to-our-products" _parent
+    style Ingestion fill:#fff
+    style Transform fill:#fff
+    style Serving fill:#fff
 ```
 
 -   Two releases per years (but multiple versions of one release, 7 for Dec. 2022)
@@ -221,7 +225,7 @@ Why we like it:
 
 -   Provides estimates for housing units  
 
-## Results general overview (1a) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+## Results: At the US level {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 ::: panel-tabset
 ### Not Reported - Unserved
@@ -231,10 +235,6 @@ Why we like it:
 ### Fiber access - 100/20 MBps
 
 ![](img/imp_data_quality_gd_services.png)
-:::
-
-::: aside
-On total US population
 :::
 
 ::: notes
@@ -294,7 +294,7 @@ Rural areas are systematically underestimated by data definitions:
 - at least one rule (see def f477 -\> bdm for rural).\
 - 20% rules.
 
--   what are we measuring an improvement on coverage or an improvement on data quality?
+- What are we measuring? An improvement on coverage, an improvement on data quality or both?
 
 ::: notes
 @drew even if we use the tabulate 2010 2020 we will face some issues: where are the locations in % covered of x 2020 or y 2020 block
@@ -302,15 +302,13 @@ Rural areas are systematically underestimated by data definitions:
 
 ## Next steps {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
+-   Getting better at counting people (use Housing unit, Microsoft building foot print)
+
+-   Upcoming FCC updates (API?)
+
+-   Fabric data: having locations will help comparing both sources
+
 -   Providing a reproducible way for other to explore FCC data at scale (moving our codes to public)
-
--   People moves / covid
-
--   Upcoming FCC updates.
-
--   Fabric data (article you do not need fabric ?) (instead of using census block 2010 we could use locations )
-
--   API ?
 
 ## Contacts {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 

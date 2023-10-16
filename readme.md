@@ -4,14 +4,14 @@ now:
 
 - [X] change link in mermaid to presentation an not localhost
 - [X] move cori logo top right
-- [ ] verify year for release F477 and NBM -> historical
+- [X] verify year for release F477 and NBM -> historical
 - [ ] change iphrame size
 - [X] move historical before BEAD and change title
-- [ ] correct background color mermaid
+- [X] correct background color mermaid
 - [X] Present FCC staff data 
 - [ ] Linking FCC staff rural def and BB data
 - [X] Linking other products ?
-    - [ ] CH https://broadband-risk.ruralinnovation.us/
+    - [X] CH https://broadband-risk.ruralinnovation.us/
 - [X] Last page: our contact information 
 - [ ] convert stuff from drew
 - [x] [need a better burrito]
@@ -47,5 +47,5 @@ now:
 - [ ] reinforce conclusion
 - [ ] next steps
 - [ ] adds something on slides cori
-- [ ] works on  Results Rural Areas underestimated in statitics
+- [ ] works on  Results Rural Areas underestimated in statistics
   
