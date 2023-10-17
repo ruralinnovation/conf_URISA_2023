@@ -21,6 +21,8 @@ title-slide-attributes:
 
 Slides realized in [Quarto](https://quarto.org/) hosted in [GitHub](https://github.com/ruralinnovation/conf_URISA_2023)
 
+Data stack: SQL ([PostgreSQL](https://www.postgresql.org/)), R with [DBI](https://dbi.r-dbi.org/),  [targets](https://docs.ropensci.org/targets/), [ggplot2](https://ggplot2.tidyverse.org/) and "in house" packages
+
 ![](img/prez_qr.png){height="300" fig-align="center"}
 
 ## Who we are? {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
@@ -281,7 +283,7 @@ unsure if "underestimated" is the correct word source NBM FCC staff for pop
 
 ## Conclusions {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-- Rural have lower broadband access
+- While nonrural access to broadband has exceeded 94% since 2014, rural broadband access stood at just 65% in 2014 and only reached 92% in 2020
 
 ![](img/rural_nonrural_broadband_gap.png){fig-align="left"}
 
