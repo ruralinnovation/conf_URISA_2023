@@ -263,44 +263,36 @@ Tools used: Shell (Bash) with GNU tools (make, csvkit, sed) and GDAL / SQL (Post
 Rural has a worth bb access: \* more Not Reported / Unserved. \* less coverage, especialy fiber.
 :::
 
-## Results Rural Areas underestimated in statistics (2a) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+## Rural Areas underestimated in statistics {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-Here we look at the 20% threshold discussed previously
+![](img/thresold.png)
 
-Proportion of population covered (at least one 25/3) that is rural is 15.91% (rest is urban)
-
-Proportion of population "served" (at least 20%, 25/3) that is rural is 52,26%
-
-Proportion of population "Unserved" (less than 20%, 25/3) that is rural is 25.63%
-
-## Results Rural Areas underestimated in statitics (2b) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
-
-![](img/unserved_rural_not.png)
-
-::: notes
-unsure if "underestimated" is the correct word source NBM FCC staff for pop
-:::
+Picking a 50% threshold can help close the gap!
 
 ## Conclusions {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-- While nonrural access to broadband has exceeded 94% since 2014, rural broadband access stood at just 65% in 2014 and only reached 92% in 2020
+:::: {.columns}
 
+::: {.column width="60%"}
 ![](img/rural_nonrural_broadband_gap.png){fig-align="left"}
 
+While nonrural access to broadband has exceeded 94% since 2014, rural broadband access stood at just 65% in 2014 and only reached 92% in 2020.
+:::
 
+::: {.column width="40%"}
 
-
-## Conclusions {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
-
+::: {.incremental}
 - Overall great improvement in data quality and better understanding on what is happening on the ground (is it enough?)
 
--   Individual can ground truth their location ([challenges](https://www.fcc.gov/sites/default/files/bdc-challenge-overview.pdf))
+- Rural areas are **still** overrepresented in poor broadband
 
-Rural areas are systematically underestimated by data definitions:   
-- at least one rule (see def f477 -\> bdm for rural).\
-- 20% rules.
+- Rural areas are systematically underestimated by data definitions
+:::
 
-- What are we measuring? An improvement on coverage, an improvement on data quality or both?
+:::
+
+::::
+
 
 ::: notes
 @drew even if we use the tabulate 2010 2020 we will face some issues: where are the locations in % covered of x 2020 or y 2020 block
@@ -308,13 +300,24 @@ Rural areas are systematically underestimated by data definitions:
 
 ## Next steps {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
--   Getting better at counting people (use Housing unit, Microsoft building foot print)
+What are we measuring? An improvement on coverage, an improvement on data quality or both?
 
--   Upcoming FCC updates (API?)
 
--   Fabric data: having locations will help comparing both sources
+::: {.incremental}
+1. Getting better at counting people (use Housing Units, Microsoft building foot print, ACS)
 
--   Providing a reproducible way for other to explore FCC data at scale (moving our codes to public)
+2. Getting better at estimating locations (optimize the cost of building broadband infrastructure)
+
+  * Individual can ground truth their location ([challenges](https://www.fcc.gov/sites/default/files/bdc-challenge-overview.pdf))
+
+  * Fabric data
+  
+  * Upcoming FCC updates (API?)
+  
+  
+3. Sharing our results: Providing a reproducible way for other to explore FCC data at scale 
+
+:::
 
 ## Contacts {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
