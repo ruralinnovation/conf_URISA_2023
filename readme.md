@@ -2,6 +2,7 @@
 
 now: 
 
+- [ ] reduce sixe of table 
 - [X] change link in mermaid to presentation an not localhost
 - [X] move cori logo top right
 - [X] verify year for release F477 and NBM -> historical

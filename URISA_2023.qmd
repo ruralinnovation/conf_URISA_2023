@@ -1,5 +1,5 @@
 ---
-title: "Rural Areas overepresented in Unserved Areas and underestimated in statistics"
+title: "Rural Areas overrepresented in Unserved Areas and underestimated in statistics"
 subtitle: "Extending Broadband to Underserved Areas"
 author: "Olivier Leroy & Drew Rosebush"
 date: "October 18 2023"
@@ -58,6 +58,19 @@ Learn more at: <https://ruralinnovation.us/>
 
 ::: notes
 Where does Broadband stand in CORI goals Here the focus is Broadband is an ingredient of tech ecosystem
+
+[FCC staff estimates](https://www.fcc.gov/staff-block-estimates):
+
+Why we like it: 
+
+-   Dataset provided for **both** 2010 and 2020 US census boundaries
+
+-   FCC provides their methodology and codes
+
+-   Same institution that NBM and F477
+
+-   Provides estimates for housing units  
+
 :::
 
 ## Historical and new data context {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
@@ -76,14 +89,16 @@ Where does Broadband stand in CORI goals Here the focus is Broadband is an ingre
 | Type of recording    | self declarative | self declarative                                                                                                                                                                                                                     |
 | Granularity          | Census block     | [Locations](https://broadbandmap.fcc.gov/location-summary/fixed?version=dec2022&location_id=1350199199&addr1=390+MORGAN+ST&addr2=OBERLIN%2C+OH+44074&zoom=15.00&vlon=-82.231744&vlat=41.287448&br=r&speed=25_3&tech=1_2_3_4_5_6_7_8) |
 | Services             | Mobile/**Fixed** | Mobile/**Fixed**  |
-| Releases | 2019-2022 | 2022 - *Ongoing* |
+| Releases | 2014-2022 | 2022 - *Ongoing* |
 
-F477: at least one rule
+F477: "at least one" rule
 
-BEAD definitions for **Unserved** area is if more than 80% of locations are Unserved.
+NBM's [BEAD](https://broadbandusa.ntia.doc.gov/sites/default/files/2022-05/BEAD%20NOFO.pdf) definitions for **Unserved area**: *an area in which not less than 80 percent of broadband-serviceable locations are unserved locations.*
 
 ::: notes
 some BB defs here should we add an iframe of some FCC NBM localisation?
+
+@drew is it 2014?
 
 at least one rule: if one ISP said he was present with 25/3 in a census block then all location in that block was "Served"
 :::
@@ -143,21 +158,21 @@ drew
 ## Defining Rural {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 ::: columns
-::: {.column width="40%"}
+::: {.column width="50%"}
 "Rural" refers to the "**nonmetro plus**" definition: includes all nonmetro counties and all tracts classified as RUCA 4 or higher.
 
 USDA’s Rural-Urban Community Area (RUCA) codes categorize rural areas by population density, urbanization, and daily commuting.
 
 More nuanced rural definition, classifying rural places along a continuum.
 
-By combining the definition it better encapsulates places that are rural in character.
+Combining the definition: better encapsulates places that are rural in character.
 
 :::
 
-::: {.column width="60%"}
+::: {.column width="50%"}
 
 ![](img/different_rural_defs.svg){fig-align="center"}
-For more information see [Defining rural America: The consequences of how we count for more information](https://ruralinnovation.us/blog/defining-rural-america/).
+For more information see [Defining rural America: The consequences of how we count](https://ruralinnovation.us/blog/defining-rural-america/).
 
 :::
 :::
@@ -211,19 +226,6 @@ flowchart LR
 Tools used: Shell (Bash) with GNU tools (make, csvkit, sed) and GDAL / SQL (PostgreSQL/PostGIS) / A bit of R (ease some processes)
 :::
 
-## Workflow: Joining blocks with population {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
-
-[FCC staff estimates](https://www.fcc.gov/staff-block-estimates):
-
-Why we like it: 
-
--   Dataset provided for **both** 2010 and 2020 US census boundaries
-
--   FCC provides their methodology and codes
-
--   Same institution that NBM and F477
-
--   Provides estimates for housing units  
 
 ## Results: At the US level {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
