@@ -75,6 +75,35 @@ Why we like it:
 
 :::
 
+## Defining Rural {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+
+::: columns
+::: {.column width="50%"}
+"Rural" refers to the "**nonmetro plus**" definition: includes all nonmetro counties and all tracts classified as RUCA 4 or higher.
+
+USDA’s Rural-Urban Community Area (RUCA) codes categorize rural areas by population density, urbanization, and daily commuting.
+
+More nuanced rural definition, classifying rural places along a continuum.
+
+Combining the definition: better encapsulates places that are rural in character.
+
+:::
+
+::: {.column width="50%"}
+
+![](img/different_rural_defs.svg){fig-align="center"}
+For more information see [Defining rural America: The consequences of how we count](https://ruralinnovation.us/blog/defining-rural-america/).
+
+:::
+:::
+
+
+
+::: notes
+@drew 
+:::
+
+
 ## Historical and new data context {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 -   [Federal Communications Commission](https://www.fcc.gov/): FCC
@@ -156,35 +185,6 @@ Source: [PEW](https://www.pewtrusts.org/en/research-and-analysis/issue-briefs/20
 ::: notes
 drew
 :::
-
-## Defining Rural {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
-
-::: columns
-::: {.column width="50%"}
-"Rural" refers to the "**nonmetro plus**" definition: includes all nonmetro counties and all tracts classified as RUCA 4 or higher.
-
-USDA’s Rural-Urban Community Area (RUCA) codes categorize rural areas by population density, urbanization, and daily commuting.
-
-More nuanced rural definition, classifying rural places along a continuum.
-
-Combining the definition: better encapsulates places that are rural in character.
-
-:::
-
-::: {.column width="50%"}
-
-![](img/different_rural_defs.svg){fig-align="center"}
-For more information see [Defining rural America: The consequences of how we count](https://ruralinnovation.us/blog/defining-rural-america/).
-
-:::
-:::
-
-
-
-::: notes
-@drew 
-:::
-
 
 ## Workflow: From FCC to our products {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
