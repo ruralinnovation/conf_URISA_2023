@@ -2,7 +2,7 @@
 
 now: 
 
-- [ ] reduce sixe of table 
+- [ ] reduce size of table 
 - [X] change link in mermaid to presentation an not localhost
 - [X] move cori logo top right
 - [X] verify year for release F477 and NBM -> historical
@@ -14,7 +14,7 @@ now:
 - [X] Linking other products ?
     - [X] CH https://broadband-risk.ruralinnovation.us/
 - [X] Last page: our contact information 
-- [ ] convert stuff from drew
+- [x] convert stuff from drew
 - [x] [need a better burrito]
 - [ ] center BEAD 
 - [X] move fcc staff and maybe rural def after workflow?
@@ -25,28 +25,28 @@ now:
 - [x] bigger logo
 - [x] cori font Bitter + TT hoves
 - [x] increase mermaid schema
-- [ ] graph overall us:
-  - [ ] twink char size text 
+- [X] graph overall us:
+  - [X] twink char size text 
   - [X] remove legend in one sixe at least "sources"
-  - [ ] Maybe add text  -> add the pct and make them at the correct place
+  - [X] Maybe add text  -> add the pct and make them at the correct place
   - [X] change label name
 
-- [ ] graph evol F477 -> NBM
+- [X] graph evol F477 -> NBM
   - [X] change US for non rural
-   - [ ] Maybe add text  -> add the pct and make them at the correct place
+   - [X] Maybe add text  -> add the pct and make them at the correct place
    - [X] remove source from f477 and nbm 
   
-- [ ] graph with share of pop depending on threshold
+- [X] graph with share of pop depending on threshold
 
     - [X] convert to bar with share (should we try line with cumulative sum)
     - [ ] correct vline ?
     - [ ] adjust legend 
     - [ ] rotate maybe ?
     
-- [ ] check numbering on title slide
+- [X] check numbering on title slide
 - [ ] review titles of every slides
 - [ ] reinforce conclusion
 - [ ] next steps
-- [ ] adds something on slides cori
-- [ ] works on  Results Rural Areas underestimated in statistics
+- [X] adds something on slides cori
+- [X] works on  Results Rural Areas underestimated in statistics
   
