@@ -304,7 +304,7 @@ What are we measuring? An improvement on coverage, an improvement on data qualit
 
 
 ::: {.incremental}
-1. Getting better at counting people (use Housing Units, Microsoft building foot print, ACS)
+1. Getting better at counting people (use Housing Units, Microsoft building footprint, ACS)
 
 2. Getting better at estimating locations (optimize the cost of building broadband infrastructure)
 
