@@ -281,14 +281,16 @@ unsure if "underestimated" is the correct word source NBM FCC staff for pop
 
 ## Conclusions {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-Rural areas appears to have lower broadband access
+- Rural have lower broadband access
 
-![](img/rural_nonrural_broadband_gap.png){fig-align="center"}
+![](img/rural_nonrural_broadband_gap.png){fig-align="left"}
 
-Overall great improvement in data quality and better understanding on what is happening on the ground (is it enough?)
+
 
 
 ## Conclusions {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+
+- Overall great improvement in data quality and better understanding on what is happening on the ground (is it enough?)
 
 -   Individual can ground truth their location ([challenges](https://www.fcc.gov/sites/default/files/bdc-challenge-overview.pdf))
 
