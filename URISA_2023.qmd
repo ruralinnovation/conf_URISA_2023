@@ -114,7 +114,7 @@ For more information see [Defining rural America: The consequences of how we cou
 
 -   [National Broadband Map](https://broadbandmap.fcc.gov/home): NBM
 
--   **Unserved**: less than 25/3 MBps downloads/uploads
+-   **Unserved**: less than 25/3 Mbps downloads/uploads
 
 |                      | F477             | NBM                                                                                                                                                                                                                                  |
 |-------------------------|------------------------|------------------------|
