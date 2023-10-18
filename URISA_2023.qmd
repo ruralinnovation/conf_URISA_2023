@@ -136,6 +136,35 @@ some BB defs here should we add an iframe of some FCC NBM localisation?
 at least one rule: if one ISP said he was present with 25/3 in a census block then all location in that block was "Served"
 :::
 
+
+## What's on the table {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+
+::: columns
+::: {.column width="50%"}
+**Broadband Equity Access and Deployment (BEAD)** Program provides \$42.45B to expand high-speed internet access by planning, infrastructure deployment, and adoption programs
+
+**Minimum BEAD allocations** range from \$25M (US territories) to \$100M (states and Puerto Rico)
+
+**Remaining BEAD allocations** vary across states depending on the number and concentration of unserved locations
+:::
+
+::: {.column width="50%"}
+
+```{=html}
+<iframe width="780" height="500" src="https://broadbandmap.fcc.gov/home" title="FCC National Broadband Map"></iframe>
+```
+:::
+:::
+
+::: aside
+Source: [PEW](https://www.pewtrusts.org/en/research-and-analysis/issue-briefs/2023/01/what-states-need-to-know-about-federal-bead-funding-for-high-speed-internet-expansion) / [State specific funding](https://broadbandusa.ntia.doc.gov/public-notice-posting-state-and-territory-bead-and-digital-equity-plansproposals)
+:::
+
+::: notes
+drew
+:::
+
+
 ## BEAD Priorities {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 ::: columns
@@ -154,38 +183,12 @@ Prioritizes projects that aim at improving affordability of service
 :::
 
 ::: {.column width="60%"}
-```{=html}
-<iframe width="780" height="500" src="https://broadbandmap.fcc.gov/home" title="FCC National Broadband Map"></iframe>
-```
-:::
-:::
-
-::: aside
-Source: [BEAD NOFO](https://broadbandusa.ntia.doc.gov/sites/default/files/2022-05/BEAD%20NOFO.pdf)
-:::
-
-## What's on the table {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
-
-::: columns
-::: {.column width="50%"}
-**Broadband Equity Access and Deployment (BEAD)** Program provides \$42.45B to expand high-speed internet access by planning, infrastructure deployment, and adoption programs
-
-**Minimum BEAD allocations** range from \$25M (US territories) to \$100M (states and Puerto Rico)
-
-**Remaining BEAD allocations** vary across states depending on the number and concentration of unserved locations
-:::
-
-::: {.column width="50%"}
 ![](img/BEAD.png)
 :::
 :::
 
 ::: aside
-Source: [PEW](https://www.pewtrusts.org/en/research-and-analysis/issue-briefs/2023/01/what-states-need-to-know-about-federal-bead-funding-for-high-speed-internet-expansion) / [State specific funding](https://broadbandusa.ntia.doc.gov/public-notice-posting-state-and-territory-bead-and-digital-equity-plansproposals)
-:::
-
-::: notes
-drew
+Source: [BEAD NOFO](https://broadbandusa.ntia.doc.gov/sites/default/files/2022-05/BEAD%20NOFO.pdf)
 :::
 
 ## Workflow: From FCC to our products {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
