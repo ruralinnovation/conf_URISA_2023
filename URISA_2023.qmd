@@ -51,7 +51,7 @@ Drew 🇺🇸 Lead Data Scientist
 
 ## Center On Rural Innovation (CORI) {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
-*Advancing economic prosperity in rural America though the creation of inclusive tech economy ecosystem that support scalable entrepreneurship and tech job creation*
+*Advancing economic prosperity in rural America through the creation of inclusive tech economy ecosystem that support scalable entrepreneurship and tech job creation*
 
 <p style="text-align:right;">
 Learn more at: <https://ruralinnovation.us/>
