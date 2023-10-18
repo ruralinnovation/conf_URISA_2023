@@ -149,10 +149,7 @@ at least one rule: if one ISP said he was present with 25/3 in a census block th
 :::
 
 ::: {.column width="50%"}
-
-```{=html}
-<iframe width="780" height="500" src="https://broadbandmap.fcc.gov/home" title="FCC National Broadband Map"></iframe>
-```
+![](img/BEAD.png)
 :::
 :::
 
@@ -168,7 +165,7 @@ drew
 ## BEAD Priorities {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="40%"}
 **Coverage**
 
 Primary goal is to extend broadband internet service (≥ 25Mbps/3Mbps) to all
@@ -182,8 +179,12 @@ Prioritizes projects designed to provide fiber connectivity directly to the end 
 Prioritizes projects that aim at improving affordability of service
 :::
 
-::: {.column width="50%"}
-![](img/BEAD.png)
+::: {.column width="60%"}
+
+```{=html}
+<iframe width="780" height="500" src="https://broadbandmap.fcc.gov/home" title="FCC National Broadband Map"></iframe>
+```
+
 :::
 :::
 
