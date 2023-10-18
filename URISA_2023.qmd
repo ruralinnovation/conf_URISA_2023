@@ -122,7 +122,7 @@ For more information see [Defining rural America: The consequences of how we cou
 | Type of recording    | self declarative | self declarative                                                                                                                                                                                                                     |
 | Granularity          | Census block     | [Locations](https://broadbandmap.fcc.gov/location-summary/fixed?version=dec2022&location_id=1350199199&addr1=390+MORGAN+ST&addr2=OBERLIN%2C+OH+44074&zoom=15.00&vlon=-82.231744&vlat=41.287448&br=r&speed=25_3&tech=1_2_3_4_5_6_7_8) |
 | Services             | Mobile/**Fixed** | Mobile/**Fixed**  |
-| Releases | 2014-2022 | 2022 - *Ongoing* |
+| Releases | 2014-2021 | 2022 - *Ongoing* |
 
 F477: "at least one" rule
 
