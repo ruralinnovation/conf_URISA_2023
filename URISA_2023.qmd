@@ -360,7 +360,7 @@ Website: [https://ruralinnovation.us](https://ruralinnovation.us)
 
 ![](img/prez_qr.png){height="100" fig-align="center"}
 
-## Check our Broadband Climate Tool {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+## Check out our BEAD Climate Tool {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 ![](img/bb_climate_risk_mitigation_tool_QR.png){height="200" fig-align="center"}
 
