@@ -25,19 +25,19 @@ Data stack: SQL ([PostgreSQL](https://www.postgresql.org/)), R with [DBI](https:
 
 ![](img/prez_qr.png){height="300" fig-align="center"}
 
-## Who we are? {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+## Who are we? {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 ::: columns
 ::: {.column width="50%"}
 
-![](img/dad_fall.png){height="500"}
+![](img/dad_fall.png){height="400"}
 
 Olivier 🇨🇵 Senior Data Engineer
 :::
 
 ::: {.column width="50%"}
 
-![](img/dad_waterfall.png){height="500"}
+![](img/dad_waterfall.png){height="400"}
 
 Drew 🇺🇸 Lead Data Scientist
 :::
@@ -51,12 +51,12 @@ Drew 🇺🇸 Lead Data Scientist
 
 *Advancing economic prosperity in rural America though the creation of inclusive tech economy ecosystem that support scalable entrepreneurship and tech job creation*
 
-![](img/cori_triangle_w_note.png)
-
-
 <p style="text-align:right;">
 Learn more at: <https://ruralinnovation.us/>
 </p>
+
+![](img/cori_triangle_w_note.png)
+
 
 ::: notes
 Where does Broadband stand in CORI goals Here the focus is Broadband is an ingredient of tech ecosystem
@@ -85,7 +85,7 @@ USDA’s Rural-Urban Community Area (RUCA) codes categorize rural areas by popul
 
 More nuanced rural definition, classifying rural places along a continuum.
 
-Combining the definition: better encapsulates places that are rural in character.
+Combining definitions: better encapsulates places that are rural in character.
 
 :::
 
@@ -140,15 +140,15 @@ at least one rule: if one ISP said he was present with 25/3 in a census block th
 ::: {.column width="40%"}
 **Coverage**
 
-The program's primary goal is to extend broadband internet service (≥ 25Mbps/3Mbps) to all
+Primary goal is to extend broadband internet service (≥ 25Mbps/3Mbps) to all
 
 **Technology**
 
-The program prioritizes projects designed to provide fiber connectivity directly to the end user
+Prioritizes projects designed to provide fiber connectivity directly to the end user
 
 **Affordability**
 
-The program prioritizes projects that aim at improving affordability of service
+Prioritizes projects that aim at improving affordability of service
 :::
 
 ::: {.column width="60%"}
@@ -162,7 +162,7 @@ The program prioritizes projects that aim at improving affordability of service
 Source: [BEAD NOFO](https://broadbandusa.ntia.doc.gov/sites/default/files/2022-05/BEAD%20NOFO.pdf)
 :::
 
-## What's on the line {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+## What's on the table {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 ::: columns
 ::: {.column width="50%"}
@@ -220,7 +220,7 @@ flowchart LR
     style Serving fill:#fff
 ```
 
--   Two releases per years (but multiple versions of one release, 7 for Dec. 2022)
+-   Two releases per year (but 7 versions of Dec. 2022 releases)
 
 -   440 files for 11GB zipped (*Fixed*)
 
@@ -245,7 +245,7 @@ Tools used: Shell (Bash) with GNU tools (make, csvkit, sed) and GDAL / SQL (Post
 @olivier
 :::
 
-## Rural Overrepresented in poor broadband! {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
+## Rural areas Overrepresented in poor quality broadband! {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 ::: panel-tabset
 ### NBM
@@ -284,7 +284,7 @@ While nonrural access to broadband has exceeded 94% since 2014, rural broadband 
 ::: {.incremental}
 - Overall great improvement in data quality and better understanding on what is happening on the ground (is it enough?)
 
-- Rural areas are **still** overrepresented in poor broadband
+- Rural areas are **still** overrepresented in poor quality broadband
 
 - Rural areas are systematically underestimated by data definitions
 :::
@@ -308,14 +308,14 @@ What are we measuring? An improvement on coverage, an improvement on data qualit
 
 2. Getting better at estimating locations (optimize the cost of building broadband infrastructure)
 
-  * Individual can ground truth their location ([challenges](https://www.fcc.gov/sites/default/files/bdc-challenge-overview.pdf))
+  * Individual can provides ground level recording from their location ([challenges](https://www.fcc.gov/sites/default/files/bdc-challenge-overview.pdf))
 
   * Fabric data
   
   * Upcoming FCC updates (API?)
   
   
-3. Sharing our results: Providing a reproducible way for other to explore FCC data at scale 
+3. Sharing our results: Providing a reproducible way for others to explore FCC data at scale 
 
 :::
 
