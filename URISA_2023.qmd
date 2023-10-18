@@ -168,7 +168,7 @@ drew
 ## BEAD Priorities {background-image="img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg" background-size="auto"}
 
 ::: columns
-::: {.column width="40%"}
+::: {.column width="50%"}
 **Coverage**
 
 Primary goal is to extend broadband internet service (≥ 25Mbps/3Mbps) to all
@@ -182,7 +182,7 @@ Prioritizes projects designed to provide fiber connectivity directly to the end 
 Prioritizes projects that aim at improving affordability of service
 :::
 
-::: {.column width="60%"}
+::: {.column width="50%"}
 ![](img/BEAD.png)
 :::
 :::
