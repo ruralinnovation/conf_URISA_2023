@@ -1,5 +1,5 @@
 ---
-title: "Rural Areas overrepresented in Unserved Areas and underestimated in statistics"
+title: "Rural Areas overrepresented in Unserved Areas and Underestimated in statistics"
 subtitle: "Extending Broadband to Underserved Areas"
 author: "Olivier Leroy & Drew Rosebush"
 date: "October 18 2023"
