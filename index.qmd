@@ -1,15 +1,18 @@
 ---
-title: "RURAL AREAS ARE OVERREPRESENTED IN UNSERVED AREAS AND UNDERESTIMATED IN STATISTICS"
-subtitle: "Extending Broadband to Underserved Areas"
+title: "Extending Broadband to Underserved Areas"
+subtitle: "How rural areas are overrepresented in unserved areas and underestimated in statistics"
 author: "Olivier Leroy & Drew Rosebush"
 date: "October 18 2023"
 institute: "Center On Rural Innovation"
 fontsize: 20pt
-format: 
-  revealjs: 
-    theme: custom_cori.scss
+favicon: assets/images/Logo-Mark_Black.png
+format:
+  revealjs:
+    theme: src/custom_cori.scss
     logo: img/CORI_Logo.png
-    css: logo.css
+    css: assets/fonts.css
+    footnotes-hover:: true
+from: markdown+emoji
 editor: visual
 title-slide-attributes:
   data-background-image: img/URISA_GISPro2023_SpeakerPPTTemplate.pptx.svg
@@ -53,11 +56,11 @@ Drew 🇺🇸 Lead Data Scientist
 
 *Advancing economic prosperity in rural America through the creation of inclusive tech economy ecosystem that support scalable entrepreneurship and tech job creation*
 
-<p style="text-align:right;">
+![](img/cori_triangle_w_note.png)
+
+<p style="text-align:left;">
 Learn more at: <https://ruralinnovation.us/>
 </p>
-
-![](img/cori_triangle_w_note.png)
 
 
 ::: notes
@@ -94,6 +97,9 @@ Combining definitions: better encapsulates places that are rural in character.
 ::: {.column width="50%"}
 
 ![](img/different_rural_defs.svg){fig-align="center"}
+
+<br />
+
 For more information see [Defining rural America: The consequences of how we count](https://ruralinnovation.us/blog/defining-rural-america/).
 
 :::

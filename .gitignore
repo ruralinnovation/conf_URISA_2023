@@ -8,3 +8,5 @@ URISA_2023_files/
 .DS_Store
 /.quarto/
 /_site/
+*.html
+*_files/
